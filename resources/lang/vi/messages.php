@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'Auth' => 'Quản trị',
+    'Index' => 'Dashboard',
+    'User' => 'Thành viên',
+    'Post' => 'Bài viết',
+    'PostCategory' => 'Thể loại',
+    'Banner' => 'Banner',
+    'UserGroup' => 'Nhóm quyền',
+    'AuthPermission' => 'Phân quyền',
+    'CustomerContacts' => 'Danh Sách Liên Hệ',
+    'list' => 'Xem danh sách',
+    'trash' => 'Xem thùng rác',
+    'add' => 'Thêm',
+    'edit' => 'Sửa',
+    'inactive' => 'Khóa',
+    'deleted' => 'Xoá',
+    'undo' => 'Khôi phục',
+    'permission' => 'Phân quyền nhóm',
+    'logout' => 'Đăng xuất',
+    'login' => 'Đăng nhập',
+    'index' => 'Xem dashboard',
+    'listpermission' => 'Xem danh sách đổi nhóm quyền',
+    'editpermission' => 'Đổi nhóm quyền',
+];

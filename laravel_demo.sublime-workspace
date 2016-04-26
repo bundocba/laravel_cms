@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"preg",
+				"preg_replace"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Type to search: ",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Windows",
+				"name": "Instant File Search",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | PDO Fetch Style\n    |--------------------------------------------------------------------------\n    |\n    | By default, database results will be returned as instances of the PHP\n    | stdClass object; however, you may desire to retrieve records in an\n    | array format for simplicity. Here you can tweak the fetch style.\n    |\n    */\n\n    'fetch' => PDO::FETCH_CLASS,\n\n    /*\n    |--------------------------------------------------------------------------\n    | Default Database Connection Name\n    |--------------------------------------------------------------------------\n    |\n    | Here you may specify which of the database connections below you wish\n    | to use as your default connection for all database work. Of course\n    | you may use many connections at once using the Database library.\n    |\n    */\n\n    'default' => env('DB_CONNECTION', 'mysql'),\n\n    /*\n    |--------------------------------------------------------------------------\n    | Database Connections\n    |--------------------------------------------------------------------------\n    |\n    | Here are each of the database connections setup for your application.\n    | Of course, examples of configuring each database platform that is\n    | supported by Laravel is shown below to make development simple.\n    |\n    |\n    | All database work in Laravel is done through the PHP PDO facilities\n    | so make sure you have the driver for your particular database of\n    | choice installed on your machine before you begin development.\n    |\n    */\n\n    'connections' => [\n\n        'sqlite' => [\n            'driver'   => 'sqlite',\n            'database' => database_path('database.sqlite'),\n            'prefix'   => '',\n        ],\n\n        'mysql' => [\n            'driver'    => 'mysql',\n            'host'      => env('DB_HOST', 'localhost'),\n            'database'  => env('DB_DATABASE', 'laravel_authentication'),\n            'username'  => env('DB_USERNAME', 'root'),\n            'password'  => env('DB_PASSWORD', ''),\n            'charset'   => 'utf8',\n            'collation' => 'utf8_unicode_ci',\n            'prefix'    => '',\n            'strict'    => false,\n        ],\n\n        'pgsql' => [\n            'driver'   => 'pgsql',\n            'host'     => env('DB_HOST', 'localhost'),\n            'database' => env('DB_DATABASE', 'forge'),\n            'username' => env('DB_USERNAME', 'forge'),\n            'password' => env('DB_PASSWORD', ''),\n            'charset'  => 'utf8',\n            'prefix'   => '',\n            'schema'   => 'public',\n        ],\n\n        'sqlsrv' => [\n            'driver'   => 'sqlsrv',\n            'host'     => env('DB_HOST', 'localhost'),\n            'database' => env('DB_DATABASE', 'forge'),\n            'username' => env('DB_USERNAME', 'forge'),\n            'password' => env('DB_PASSWORD', ''),\n            'charset'  => 'utf8',\n            'prefix'   => '',\n        ],\n\n    ],\n\n    /*\n    |--------------------------------------------------------------------------\n    | Migration Repository Table\n    |--------------------------------------------------------------------------\n    |\n    | This table keeps track of all the migrations that have already run for\n    | your application. Using this information, we can determine which of\n    | the migrations on disk haven't actually been run in the database.\n    |\n    */\n\n    'migrations' => 'migrations',\n\n    /*\n    |--------------------------------------------------------------------------\n    | Redis Databases\n    |--------------------------------------------------------------------------\n    |\n    | Redis is an open source, fast, and advanced key-value store that also\n    | provides a richer set of commands than a typical key-value systems\n    | such as APC or Memcached. Laravel makes it easy to dig right in.\n    |\n    */\n\n    'redis' => [\n\n        'cluster' => false,\n\n        'default' => [\n            'host'     => env('REDIS_HOST', 'localhost'),\n            'password' => env('REDIS_PASSWORD', null),\n            'port'     => env('REDIS_PORT', 6379),\n            'database' => 0,\n        ],\n\n    ],\n\n];\n",
+			"file": "config/database.php",
+			"file_size": 4184,
+			"file_write_time": 130939311420000000,
+			"settings":
+			{
+				"buffer_size": 4200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/xampp/htdocs/lassohome-master/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+			"settings":
+			{
+				"buffer_size": 18178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/xampp/htdocs/laravel/laravel_bun_root/app/Http/Controllers/Auth/PasswordController.php",
+			"settings":
+			{
+				"buffer_size": 813,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/xampp/htdocs/lassohome-master/resources",
+		"/E/xampp/htdocs/lassohome-master/resources/views",
+		"/E/xampp/htdocs/lassohome-master/resources/views/auth",
+		"/E/xampp/htdocs/laravel/laravel_bun/app",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Models",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Models/inside",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Models/outside",
+		"/E/xampp/htdocs/office_v2/trunk",
+		"/E/xampp/htdocs/office_v2/trunk/src",
+		"/E/xampp/htdocs/office_v2/trunk/src/outside",
+		"/E/xampp/htdocs/office_v2/trunk/src/outside/config",
+		"/E/xampp/htdocs/office_v2/trunk/src/outside/controllers",
+		"/E/xampp/htdocs/office_v2/trunk/src/outside/web",
+		"/E/xampp/htdocs/laravel/laravel_bun_root",
+		"/E/xampp/htdocs/laravel/laravel_bun_root/app",
+		"/E/xampp/htdocs/laravel/laravel_bun_root/app/Http",
+		"/E/xampp/htdocs/laravel/laravel_bun_root/app/Http/Controllers",
+		"/E/xampp/htdocs/laravel/laravel_bun_root/app/Http/Controllers/Auth",
+		"/E/xampp/htdocs/laravel/laravel_bun_root/app/Jobs"
+	],
+	"file_history":
+	[
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/controllers/PromoCodeController.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/views/promo-code/show-all.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/components/Assignment.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/models/PromoCode.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/views/promo-code/add.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/views/promo-code/trash.php",
+		"/E/xampp/htdocs/office_v2/tags/v2.0/inside/components/Assignment.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/modules/applications/views/promo-code/edit.php",
+		"/E/xampp/htdocs/office_v2/trunk/src/inside/web/index.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Models/inside/PostCategory.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Models/inside/BaseCategories.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/inc/parts/post_share.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/PostCategoryController.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/functions.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/affegg-templates/egg_item_rehub_big_with_dealsextra.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/functions/sidebar_functions.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/affegg-templates/wegg_rehub_offers_nobtn.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/affegg-templates/wegg_rehub_offers_grid.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/single.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/inc/parts/related_posts.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/comments.php",
+		"/F/bundocba/wp/Themeforest_56123154512/Themeforest_56172134512/Themeforest_56172134512/lang/bg_BG.po",
+		"/E/xampp/htdocs/source/inside/app/MyCore/Models/DbTable.php",
+		"/E/xampp/htdocs/source/inside/app/MyCore/Routing/MyController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/BaseController.php",
+		"/E/xampp/htdocs/source/inside/.env.production",
+		"/E/xampp/htdocs/source/inside/bootstrap/app.php",
+		"/F/document/FptJob/source/inside/app/MyCore/Routing/MyController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Models/Banner.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Requests/inside/UserRequest.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/routes.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Helpers/AuthItemHelper.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/AuthPermissionController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/inside/banners/add.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/composer.json",
+		"/E/xampp/htdocs/laravel/laravel_bun/config/app.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Models/PostCategory.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/inside/banners/list.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/UserGroupController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/CustomerContactsController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/layouts/_sidebar.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/inside/customer-contacts/list.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/lang/vi/messages.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Models/Post.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Models/Language.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/inside/posts/list.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/layouts/main.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/inside/posts/add.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/vendor/laravel/framework/src/Illuminate/View/Factory.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/vendor/laravel/framework/src/Illuminate/Contracts/View/Factory.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/C/Users/MRBun/AppData/Roaming/Sublime Text 3/Packages/User/pre.sublime-snippet",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Http/Controllers/inside/PostController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/config/view.php",
+		"/E/xampp/htdocs/laravel_demo/composer.json",
+		"/E/xampp/htdocs/laravel_demo/config/app.php",
+		"/E/xampp/htdocs/laravel_demo/.env",
+		"/E/xampp/htdocs/laravel_demo/app/Models/UserGroup.php",
+		"/E/xampp/htdocs/laravel_demo/resources/views/inside/user-groups/list.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/admin/login.html",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Cate.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/admin/cate/add.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/welcome.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/ProductImage.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Products.php",
+		"/E/xampp/htdocs/office365/trunk/src/inside/controllers/DefaultController.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/config/cache.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/app/Providers/Products.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/admin/user/add.blade.php",
+		"/E/xampp/htdocs/laravel/laravel_bun/resources/views/admin/master.blade.php",
+		"/C/Users/MRBun/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/MRBun/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"F:\\bundocba\\wp\\Themeforest_56123154512\\Themeforest_56172134512\\Themeforest_56172134512",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun",
+			"E:\\xampp\\htdocs\\lassohome-master",
+			"F:\\bundocba\\wp\\Themeforest_56123154512\\Themeforest_56172134512\\Themeforest_56172134512",
+			"E:\\xampp\\htdocs\\source\\inside",
+			"E:\\xampp\\htdocs\\source\\inside\\config",
+			"E:\\xampp\\htdocs\\source\\inside\\database",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun\\app",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun\\app\\Http\\Controllers\\inside",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun\\resources\\views\\inside",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun\\vendor",
+			"E:\\xampp\\htdocs\\laravel_demo\\vendor",
+			"E:\\xampp\\htdocs\\laravel_demo",
+			"E:\\xampp\\htdocs\\laravel\\laravel_bun",
+			"E:\\xampp\\htdocs\\laravel_demo"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logo_section_wrap",
+			"<?php get_searchform(); ?>",
+			"createFileExcel",
+			"code",
+			"share-item tw_like",
+			"logo",
+			"no comments",
+			"tabs-item",
+			"rcnt_meta",
+			"tabs",
+			"CATEGORY",
+			"//        'Collective\\Html\\HtmlServiceProvider',\nCollective\\Html\\HtmlServiceProvider",
+			"captcha",
+			"facebook",
+			"comments_template",
+			"Related article",
+			"latest_video",
+			"comments_template",
+			"related_post",
+			"Related article",
+			"We will be happy to see your thoughts",
+			"Leave a reply",
+			"Related Articles",
+			"production",
+			"KHEwh3UyZL",
+			"getRoutes",
+			"middlewave",
+			"SetFileField",
+			"edt",
+			"yield",
+			"CartServiceProvider",
+			"HtmlServiceProvider",
+			"Collective",
+			"providers",
+			"shop",
+			"provider",
+			"service provider",
+			"service",
+			"date_of_birth"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"default_dir": "F:\\bundocba\\wp\\Themeforest_56123154512\\Themeforest_56172134512\\Themeforest_56172134512",
+							"sidebar_instant_search_paths":
+							[
+								"F:\\bundocba\\wp\\Themeforest_56123154512\\Themeforest_56172134512\\Themeforest_56172134512"
+							],
+							"syntax": "Packages/SideBarEnhancements/SideBar Results.hidden-tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1903,
+								1903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/xampp/htdocs/lassohome-master/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7454,
+								7454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/xampp/htdocs/laravel/laravel_bun_root/app/Http/Controllers/Auth/PasswordController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "laravel_demo.com",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 359.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
